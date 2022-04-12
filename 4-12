@@ -1,0 +1,47 @@
+#include<stdio.h>
+//void test()
+//{
+//	int a = 1;
+//	a++;
+//	printf("%d ", a);
+//}
+//int main()
+//{
+//	int i = 0;
+//	while (i < 10)
+//	{
+//		test();
+//		i++;
+//	}
+//	return 0;
+//}
+//int Add(int x, int y)
+//{
+//	int z = 0;
+//	z = x + y;
+//	return z;
+//}
+//int main()
+//{
+//	int a = 10;
+//	int b = 20;
+//	printf("%d\n", Add(a, b));
+//	printf("%p\n", &Add);
+//	printf("%p\n", Add);
+//}
+//int main()
+//{
+//	int i = 1;
+//	for (i = 1;i < 100;i += 2)
+//	{
+//		printf("%d ", i);
+//	}
+//	return 0;
+//}
+int main()
+{
+	char ch;
+	printf("请输入字符："); //1 2 回车
+	scanf_s("%c", &ch); // 读取 1
+	printf("%c", getchar()); //输出 2
+}
